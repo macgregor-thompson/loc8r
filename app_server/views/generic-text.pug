@@ -6,19 +6,4 @@ block content
             h1= title
     .row
         .col-12.col-lg-8
-            p
-                | Loc8r was created to help people find places to sit down and get a bit of work done.
-            | <br>
-            p
-                | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat odio facilisis mauris sit amet.
-                | Mauris ultrices eros in cursus turpis. Nunc pulvinar sapien et ligula ullamcorper malesuada. Hac habitasse platea dictumst vestibulum.
-                | Sit amet consectetur adipiscing elit duis tristique. Feugiat sed lectus vestibulum mattis ullamcorper velit sed. Varius duis at consectetur lorem donec massa.
-                | Aliquam vestibulum morbi blandit cursus risus at. Dui faucibus in ornare quam. Ultricies mi quis hendrerit dolor magna. Dignissim suspendisse in est ante in nibh mauris.
-                | Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Nunc faucibus a pellentesque sit amet porttitor eget.
-            p
-                | At augue eget arcu dictum varius. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Urna et pharetra pharetra massa.
-                | Rhoncus urna neque viverra justo nec. Nisl nisi scelerisque eu ultrices vitae auctor eu. Eu feugiat pretium nibh ipsum. Vel fringilla est
-                | ullamcorper eget nulla facilisi etiam. Nulla aliquet enim tortor at auctor urna nunc id. Phasellus egestas tellus rutrum tellus pellentesque eu
-                | tincidunt tortor aliquam. Eros donec ac odio tempor orci dapibus. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Hendrerit
-                | dolor magna eget est lorem ipsum dolor sit. Sed faucibus turpis in eu mi bibendum neque. Felis eget velit aliquet sagittis id consectetur.
-                | Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Sed blandit libero volutpat sed.
+            p !{(content).replace(/\n/g, '<br/>')}
